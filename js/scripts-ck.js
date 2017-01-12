@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".match-height").matchHeight();$(".backstretch").backstretch("./img/GE_IndustrialInternet_HiRes_01.jpg");$(function(){var e=500;$(window).scroll(function(){$(this).scrollTop()>e?$("#toTop").fadeIn():$("#toTop").fadeOut()});$("#toTop").click(function(){$("body,html").animate({scrollTop:0},800)})})});
